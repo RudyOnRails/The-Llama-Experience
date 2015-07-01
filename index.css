@@ -1,0 +1,48 @@
+#header-h1 {
+    position:absolute;
+    color:brown;
+    top:-5px;
+    right:60%;
+    }
+
+#header-h5 {
+    position:absolute;
+    color:brown;
+    top:30px;
+    right:60px;
+}
+    
+#logo {
+    width:12.5%;
+    
+}
+
+.image {
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Desert_de_Retz_Grass.jpg/800px-Desert_de_Retz_Grass.jpg");
+    position:relative;
+    width:75%;
+}
+
+body {
+    background-color:#FFFFCC;
+}
+
+#pic1 {
+    position:absolute;
+    
+}
+
+#passion {
+    margin-right:50%;
+    width:50%;
+}
+
+.body {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+    
