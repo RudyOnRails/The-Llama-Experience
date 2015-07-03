@@ -1,0 +1,132 @@
+#header-h1 {
+    position:relative;
+    color:red;
+    background-color:#009933;
+    top:-10px;
+    font-size:32pt;
+    text-decoration:underline;
+    margin-left:123px;
+    border-color:#003300;
+    border-width:2px 0px;
+    border-style:solid;
+    }
+
+#header-h5 {
+    position:relative;
+    color:brown;
+    margin-left:400px;
+    bottom:30px;
+    background-color:#5CE65C;
+    padding-left:3pt;
+}
+    
+#logo {
+    width:12.5%;
+    height:100pt;
+    border: 2px solid brown;
+    border:2px 3px;
+    float:left;
+    position:relative;
+    top:-1px;
+    left:-1px;
+    z-index:10;
+}
+
+header {
+    margin:0 auto;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Desert_de_Retz_Grass.jpg/800px-Desert_de_Retz_Grass.jpg");
+    position:relative;
+    width:960px;
+    height:100pt;
+    border: 3px solid brown;
+}
+
+body {
+    background-color:#CC6600;
+    margin:0;
+}
+
+#pic1 {
+    position:relative;
+    width:432.33px;
+    height:263.33px;
+    left:500px;
+    bottom:225px;
+    border:4pt double brown;
+  
+}
+
+#passion {
+    position:relative;
+    margin-right:50%;
+    width:40%;
+    left:20px;
+    top:60px;
+    padding-left:20px;
+}
+
+.container {
+    width:960px;
+    margin:0 auto;
+    background-color:#FFFFCC;
+    border-color:black;
+}
+    
+p {
+    font-size:13pt;
+    text-indent:50px;
+}
+
+a {
+    text-decoration:none;
+}
+a:link{
+    color:green;
+}
+a:hover{
+    color:#000099;
+}
+
+.desc {
+    font-size:13px;
+}
+
+.bar li {
+    display:inline;
+    border:2pt solid black;
+    padding:5px;
+    background-color:darkgreen;
+}
+
+.bar {
+    text-align:center;
+    border: 3pt solid green;
+    margin-bottom:-50px;
+    background-color:#00B800;
+    padding:0;
+}
+.bar .active:link{
+    color:white;
+}
+.bar .active:visited {
+    color:white;
+}
+.bar .active:hover {
+   color:#CCCCCC; 
+   font-weight:900;
+}
+
+.tours {
+    border:3px solid brown;
+    border-collapse:collapse;
+    width:90%;
+    margin: 0 auto;
+}
+
+.tours th, td {
+    border:2px solid black;
+}
+
+#llama_tours {
+    padding-left:50px;
+}
