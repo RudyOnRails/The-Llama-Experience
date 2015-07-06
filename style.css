@@ -81,6 +81,7 @@ body {
 }
 
 .container {
+ /*Fix main body so that the bottom border is adjusted*/
     width:960px;
     margin:0 auto;
     background:url("images/paper.png");
@@ -224,9 +225,13 @@ a:hover{
     top:20px;
     background-color:#0066FF;
     border:3pt solid darkblue;
-    padding: 0 20px 0;
+    padding: 0 20px;
 }
 .july div {
+    position:relative;
+    top:-10px;
+    width:75%;
+    margin:auto;
     text-align:center;
     background-color:#FF0000;
     border:3pt solid #5C0000;
@@ -246,8 +251,7 @@ a:hover{
 .july div p {
     position:absolute;
     width:150px;
-    top:153px;
-    left:385px;
+    left:255px;
     border:0;
     
 }
