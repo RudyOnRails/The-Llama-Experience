@@ -34,7 +34,7 @@
 
 header {
     margin:0 auto;
-    background-image:url("images/grass.jpg");
+    background-image:url("../assets/images/grass.jpg");
     position:relative;
     width:954px;
     height:100pt;
@@ -42,7 +42,7 @@ header {
 }
 
 .back-header {
-    background:url("images/beautiful_sky.jpg");
+    background:url("../assets/images/beautiful_sky.jpg");
     width:100%;
     height:142px;
     position:absolute;
@@ -76,7 +76,7 @@ header {
 }
 
 body {
-    background:url("images/dark_wood.png");
+    background:url("../assets/images/dark_wood.png");
     margin:0;
 }
 
@@ -84,7 +84,7 @@ body {
  /*Fix main body so that the bottom border is adjusted*/
     width:960px;
     margin:0 auto;
-    background:url("images/paper.png");
+    background:url("../assets/images/paper.png");
     border:2pt solid red;
 }
 
@@ -223,13 +223,16 @@ a:hover{
 .july {
     position:relative;
     top:20px;
-    background-color:#0066FF;
+    background:url("../assets/images/flag.jpg");
     border:3pt solid darkblue;
     padding: 0 20px;
+    margin:0 20px;
+    margin-bottom:60px;
+    height:540px;
 }
 .july div {
     position:relative;
-    top:-10px;
+    top:-20px;
     width:75%;
     margin:auto;
     text-align:center;
@@ -239,7 +242,9 @@ a:hover{
 .july h2 {
     position:relative;
     text-align:center;
+    width:200px;
     left:83px;
+    top:-15px;
     text-decoration:underline;
     text-decoration:black;
     background-color:#5C0000;
@@ -248,16 +253,10 @@ a:hover{
     margin-right:710px;
     padding: 10px 20px 10px;
 }
-.july div p {
-    position:absolute;
-    width:150px;
-    left:255px;
-    border:0;
-    
-}
+
 .july p {
     position:relative;
-    top:-21px;
+    top:-36px;
     left:50px;
     font-family:arial;
     margin-right:400px;
@@ -266,8 +265,15 @@ a:hover{
     color:white;
     padding:10px 10px;
     border:2pt solid red;
-    
 }
+
+.july div p{
+    position:absolute;
+    width:150px;
+    left:240px;
+    border:0;
+}
+
 .red {
     color:red;
 }
@@ -323,7 +329,6 @@ footer {
     top:1px;
     padding-left:10px;
 }
-
 .contactinfo {
     font-family:Arial;
     height:200px;
@@ -335,3 +340,22 @@ footer {
 
 /* End of Contact Us page */
 
+.llamapics {
+    width:120px;
+    height:120px;
+    border:2pt solid brown;
+}
+
+.tour {
+    background-color:#FFDB94;
+    border:2pt solid #663300;
+}
+.tour h3 {
+    font-size:16pt;
+    text-decoration:underline;
+    color:#522720;
+}
+.inner_tour {
+    background-color:#FFE9BF;
+    border:2.5pt solid #FFC751;
+}
