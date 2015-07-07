@@ -403,13 +403,13 @@ button {
     height:40px;
     text-align:center;
     background-color:lightgreen;
-    box-shadow:0 2px 0 green;
+    box-shadow:0 3px 0 green;
     padding:5px;
     border:0;
     outline:0;
     border-radius:5px;
     cursor:pointer;
-    transition: all .03s linear;
+    transition: all .01s linear;
 }
 button:active {
     box-shadow:0 1px 0 green;
