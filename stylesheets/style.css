@@ -424,3 +424,15 @@ button a:visited {
 
 /*End of Llama Tours page*/
 /*Beginning of confirm.html*/
+#confirm_head {
+    margin:60px 20px;
+    width:50%;
+}
+#confirm_head h4 {
+    position:relative;
+    padding-left:20px;
+    top:-15px;
+}
+#confirm_head h2 {
+    text-decoration:underline;
+}

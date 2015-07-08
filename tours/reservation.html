@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <Title>Tour Booking</Title>
+        <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
+        <link rel="shortcut icon" href="../assets/images/llama.ico">
+    </head>
+    
+    <body>
+        <div class="back-header"></div>
+        
+        <div class="container">
+            
+            <header>
+                <img id="logo" src="http://new1.fjcdn.com/thumbnails/comments/That+s+clearly+a+goat+like+this+one+_64ddfb6aaadc4c8d0f33de470eca296b.jpg" />
+                <h1 id="header-h1">The Llama Experience</h1>
+                <h5 id="header-h5"><i>...the most genuine llama adventures</i></h5>
+            </header>
+            
+            <nav class="bar">
+                <ul>
+                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li><a href="../news.html" class="active">News</a></li>
+                    <li><a href="../tours.html" class="active">Llama Tours</a></li>
+                    <li><a href="../contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <hgroup id="confirm_head">
+                <h2>Please Provide Sufficient Info</h2>
+                <h4>Your information is <strong>NOT</strong> safe with us! :)</h4>
+            </hgroup>
+            
+            <!--WARNING! Personal Information required ahead!-->
+            <div>
+                <form action="#" method="POST">
+                        <b>Enter your full name below-</b><br>
+                        <input type="text" name="fullname"><br>
+                        <b>Number of people in your group-</b>
+                        <table>
+                            <tr>
+                                <th>Adults</th><th>Children</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="adults"></td>
+                                <td><input type="text" name="children"></td>
+                            </tr>
+                        </table>
+                    <fieldset>
+                        <b>Check your payment method-</b><br>
+                        <input type="radio" name="card" value="american_express">American Express<br>
+                        <input type="radio" name="card" value="mastercard">Mastercard<br>
+                        <input type="radio" name="card" value="visa">Visa<br>
+                        <input type="radio" name="card" value="discover">Discover<br>
+                   
+                        <b>Card Number-</b><br>
+                        <input type="text" name="card_number"><br>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <b>Please Specify a Tour Date (Month, Day, and Year)-</b><br>
+                        <input type="text" name="date"><br>
+                      <div> 
+                        <b>Choose a Time-</b><br>
+                        <ul>
+                            <li>Weekdays</li>
+                                <input type="radio" name="time" value="11:00am">11:00 A.M.<br>
+                                <input type="radio" name="time" value="1:15am">1:15 P.M.<br>
+                                <input type="radio" name="time" value="3:30am">3:30 P.M.<br>
+                                <input type="radio" name="time" value="5:45am">5:45 P.M.<br>
+                            <li>Sat./Sun.</li>
+                                <input type="radio" name="time" value="12:00am">12:00 A.M.<br>
+                                <input type="radio" name="time" value="1:15am">2:15 P.M.<br>
+                                <input type="radio" name="time" value="3:30am">4:30 P.M.<br>
+                                <input type="radio" name="time" value="5:45am">6:45 P.M.<br>
+                        </ul>
+                      </div>
+                    </fieldset>
+                    
+                </form>
+            </div>
+            
+            
+            
+        </div>
+    </body>
+</html>
