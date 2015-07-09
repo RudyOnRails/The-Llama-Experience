@@ -51,7 +51,9 @@ header {
 }
 
 .bar li {
-    display:inline;
+    position:static;
+    width:95px;
+    display:inline-block;
     border:2pt solid black;
     padding:5px;
     background-color:darkgreen;
@@ -71,8 +73,8 @@ header {
     color:white;
 }
 .bar .active:hover {
-   color:#CCCCCC; 
-   font-weight:900;
+   color:#CCCCCC;
+   font-weight:bold;
 }
 
 body {
@@ -415,7 +417,7 @@ button:active {
     box-shadow:0 1px 0 green;
     transform: translateY(1px);
 }
-button a:visited {
+button b {
     color:green;
 }
 .tour td {
