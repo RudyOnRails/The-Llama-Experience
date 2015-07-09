@@ -1,4 +1,4 @@
-#header-h1 {
+header h1 {
     position:relative;
     color:red;
     background-color:#009933;
@@ -11,7 +11,7 @@
     border-style:solid;
     }
 
-#header-h5 {
+header h5 {
     position:relative;
     color:brown;
     margin-left:400px;
@@ -24,7 +24,6 @@
     width:12.5%;
     height:100pt;
     border: 2px solid brown;
-    border:2px 3px;
     float:left;
     position:relative;
     top:-1px;
@@ -50,7 +49,7 @@ header {
     z-index:-1;
 }
 
-.bar li {
+nav li {
     position:static;
     width:95px;
     display:inline-block;
@@ -59,20 +58,20 @@ header {
     background-color:darkgreen;
 }
 
-.bar {
+nav {
     text-align:center;
     border: 3pt solid green;
     margin-bottom:-50px;
     background-color:#00B800;
 }
 
-.bar .active:link{
+nav .active:link{
     color:white;
 }
-.bar .active:visited {
+nav .active:visited {
     color:white;
 }
-.bar .active:hover {
+nav .active:hover {
    color:#CCCCCC;
    font-weight:bold;
 }
@@ -100,13 +99,14 @@ body {
     left:-30px;
 }
 
-#welcome {
+#welcome{
+    border-radius:5px;
     position:relative;
     margin-right:50%;
     width:40%;
     top:150px;
     left:20px;
-    background-color:#FFCC66;
+    background-color:#FFE6B2;
     padding:1px 20px;
     border:2pt solid orange;
 }
@@ -128,15 +128,17 @@ body {
 
 
 #passion {
+    border-radius:5px;
     position:relative;
     margin-left:50%;
     width:40%;
     left:20px;
     top:250px;
     padding:1px 20px;
-    background-color:#FFCC66;
+    background-color:#FFE6B2;
     border:2pt solid orange;
 }
+
 #passion h2 {
     text-decoration:underline;
 }
@@ -425,16 +427,107 @@ button b {
 }
 
 /*End of Llama Tours page*/
-/*Beginning of confirm.html*/
+/*Beginning of reservation.html*/
 #confirm_head {
     margin:60px 20px;
     width:50%;
+    background-color:#FFDB94;
+    margin-top:70px;
+    height:90px;
+    padding-top:1px;
+    border:2px solid brown;
 }
 #confirm_head h4 {
     position:relative;
     padding-left:20px;
     top:-15px;
+    background-color:#FFE6B2;
 }
 #confirm_head h2 {
+    padding-left:20px;
+    text-transform:uppercase;
+    position:relative;
     text-decoration:underline;
+}
+#info1-1 {
+    width:45%;
+    margin:40px;
+}
+#info1-2 {
+    position:relative;
+    top:-20px;
+    width:45%;
+    margin:20px 40px;
+}
+#info1-2 td {
+    border:0;
+}
+#info2-1 {
+    float:right;
+    position:relative;
+    margin: 20px 40px;
+    width:45%;
+    top:-188px;
+    left:20px;
+}
+#info2-2 {
+    float:right;
+    position:relative;
+    top:-220px;
+    left:20px;
+    margin:10px 40px;
+    width:45%;
+}
+#info3-1 {
+    margin:20px 40px;
+    width:45%;
+}
+#info3-2 {
+    margin:20px 40px;
+    position:relative;
+    top:-20px;
+}
+#info3-2 li {
+    list-style:none;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#info3-2 span {
+    display:block;
+    position:relative;
+    top:25px;
+}
+.submit {
+    font-size:13pt;
+    font-family:arial, helvetica, sans-serif;
+    position:relative;
+    left:50px;
+    top:-20px;
+    bottom:1px;
+    z-index:5;
+    width:80px;
+    height:30px;
+    text-align:center;
+    background-color:lightgreen;
+    box-shadow:0 3px 0 green;
+    padding:px;
+    border:0;
+    outline:0;
+    border-radius:5px;
+    cursor:pointer;
+    transition: all .01s linear;
+}
+.submit:active {
+    box-shadow:0 1px 0 green;
+    transform: translateY(1px);
+}
+#remind {
+    position:relative;
+    bottom:40px;
+    left:30px;
+    font-size:14pt;
+    margin-bottom:-40px;
+}
+#remind span {
+    background-color:lightgreen;
 }
