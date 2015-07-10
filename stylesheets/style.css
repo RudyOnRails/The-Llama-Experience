@@ -63,6 +63,7 @@ nav {
     border: 3pt solid green;
     margin-bottom:-50px;
     background-color:#00B800;
+    margin:0 auto;
 }
 
 nav .active:link{
@@ -250,7 +251,6 @@ a:hover{
     left:83px;
     top:-15px;
     text-decoration:underline;
-    text-decoration:black;
     background-color:#5C0000;
     border:2pt solid red;
     border-bottom:0;
@@ -536,22 +536,90 @@ button b {
 /*Beginning of confirmed.html*/
 #congrats {
     margin:70px 20px;
-    padding:10px 0;
+    padding:15px 0;
     background-color:#FFCC66;
     border:2px double brown;
 }
-#congrats h2,h3 {
-    background-color:#FFE9BF;
+#congrats h2, #congrats h3 {
+    background-color:#FFEDCC;
     margin-left:130px;
+    margin:10px;
+    border:2px solid orange;
+}
+#congrats h2 {
+    text-transform:uppercase;
+    font-size:24pt;
+    position:relative;
+    top:12px;
+    left:-1px;
+    border-bottom:none;
+    margin-right:300px;
+    letter-spacing:0.2em;
+}
+#congrats h3 {
+    padding:5px;
+    margin-left:20px;
 }
 #congrats img {
     float:left;
+    position:relative;
+    border:1px solid darkorange;
+    border-radius:20px;
+    top:-17px;
     height:125px;
     width:125px;
     margin:10px;
+    z-index:1;
+    background-color:#FFE9BF;
 }
 #questions {
-    margin:10px;
-    padding:5px 10px;
-    
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:relative;
+    top:-50px;
+}
+.home {
+    text-align:center;
+    width:auto;
+    margin:0 auto;
+    left:41%;
+    top:-40px;
+}
+
+/*End of confirmed.html*/
+/*Beginning of the_llamas.html*/
+#our_llamas article{
+    position:relative;
+    border:2pt solid brown;
+    border-top:none;
+    border-radius:0 0 10px 10px;
+    top:-20px;
+    width:40%;
+    margin:40px;
+    background-color:#FFEECA;
+    padding:10px 20px;
+}
+#our_llamas p {
+    text-indent:25px;
+    margin:0;
+}
+#our_llamas p:first-letter {
+    font-size:125%;
+}
+#our_llamas h2 {
+    position:relative;
+    top:20px;
+    left:15px;
+    border-radius:1em 4em 0em 0em / 2em 1em 2em 1em ;
+    width:780px;
+    padding:5px 0;
+    padding-left:30px;
+    font-size:24pt;
+    background-color:#473119;
+    color:white;
+}
+#our_llamas h3 {
+    font-size:16pt;
+    margin:25px 0 10px 0;
 }
