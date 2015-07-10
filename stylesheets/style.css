@@ -531,3 +531,27 @@ button b {
 #remind span {
     background-color:lightgreen;
 }
+
+/*End of reservation.html*/
+/*Beginning of confirmed.html*/
+#congrats {
+    margin:70px 20px;
+    padding:10px 0;
+    background-color:#FFCC66;
+    border:2px double brown;
+}
+#congrats h2,h3 {
+    background-color:#FFE9BF;
+    margin-left:130px;
+}
+#congrats img {
+    float:left;
+    height:125px;
+    width:125px;
+    margin:10px;
+}
+#questions {
+    margin:10px;
+    padding:5px 10px;
+    
+}
