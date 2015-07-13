@@ -3,7 +3,7 @@
     width:100%;
   }
   .desc {
-    overflow:auto;
+    overflow:scroll;
     font-size:1.75em;
   }
 }
@@ -14,10 +14,10 @@ header h1 {
   background-color:#009933;
   top:-10px;
   font-size:32pt;
-  text-decoration:underline;
   margin-left:123px;
+  padding-left:10px;
   border-color:#003300;
-  border-width:2px 0px;
+  border-width:2px 0 2px 2px;
   border-style:solid;
 }
 
@@ -31,7 +31,7 @@ header h5 {
 }
     
 #logo {
-  width:12.5%;
+  width:13%;
   height:100pt;
   border: 2px solid brown;
   float:left;
@@ -39,6 +39,13 @@ header h5 {
   top:-1px;
   left:-1px;
   z-index:10;
+  transition:all .6s ease-in-out .7s;
+}
+
+#logo:hover {
+  transform:rotate(720deg);
+  border-radius:100%;
+  opacity:0;
 }
 
 header {
@@ -69,7 +76,7 @@ nav li {
 }
 
 nav li:hover{
-  transition:all 0.3s linear;
+  transition:all 0.3s ease-out;
   background-color:#66FF33;
   border:2pt solid #008000;
 }
