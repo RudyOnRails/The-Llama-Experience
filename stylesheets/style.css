@@ -1,3 +1,13 @@
+@media screen and (max-width: 600px) {
+  .conatiner {
+    width:100%;
+  }
+  .desc {
+    overflow:auto;
+    font-size:1.75em;
+  }
+}
+
 header h1 {
   position:relative;
   color:red;
@@ -58,6 +68,12 @@ nav li {
   background-color:darkgreen;
 }
 
+nav li:hover{
+  transition:all 0.3s linear;
+  background-color:#66FF33;
+  border:2pt solid #008000;
+}
+
 nav {
   text-align:center;
   border: 3pt solid green;
@@ -66,6 +82,10 @@ nav {
   margin:0 auto;
 }
 
+nav .active {
+  position:relative;
+  max-width:95px;
+}
 nav .active:link{
   color:white;
 }
@@ -73,13 +93,12 @@ nav .active:visited {
   color:white;
 }
 nav .active:hover {
-  color:#CCCCCC;
-  font-weight:bold;
+  font-weight:900;
+  color:green;
 }
 
 body {
   background:url("../assets/images/dark_wood.png");
-  margin:0;
 }
 
 .container {
@@ -96,7 +115,7 @@ body {
   height:263.33px;
   border:4pt double brown;
   float:right;
-  top:180px;
+  top:120px;
   left:-30px;
 }
 
@@ -105,7 +124,7 @@ body {
   position:relative;
   margin-right:50%;
   width:40%;
-  top:150px;
+  top:90px;
   left:20px;
   background-color:#FFE6B2;
   padding:1px 20px;
@@ -123,7 +142,7 @@ body {
   width:432.33px;
   height:263.33px;
   left:15px;
-  bottom:70px;
+  bottom:130px;
   border:4pt double brown;
 }
 
@@ -134,7 +153,7 @@ body {
   margin-left:50%;
   width:40%;
   left:20px;
-  top:250px;
+  top:190px;
   padding:1px 20px;
   background-color:#FFE6B2;
   border:2pt solid orange;
@@ -412,7 +431,7 @@ button {
   outline:0;
   border-radius:5px;
   cursor:pointer;
-  transition: all .01s linear;
+  transition: all .06s linear;
 }
 button:active {
   box-shadow:0 1px 0 green;
@@ -587,6 +606,9 @@ button b {
 
 /*End of confirmed.html*/
 /*Beginning of the_llamas.html*/
+#our_llamas {
+  position:relative;
+}
 #our_llamas article{
   position:relative;
   border:2pt solid brown;
@@ -622,10 +644,13 @@ button b {
   margin:25px 0 10px 0;
 }
 #our_llamas #our_llama {
-  position:absolute;
+  float:right;
+  position:relative;
+  bottom:680px;
+  right:35px;
   width:400px;
   height:500px;
   border:4pt solid brown;
-  left:980px;
-  top:400px;
 }
+/*End of the_llamas.html*/
+
