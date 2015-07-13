@@ -1,625 +1,631 @@
 header h1 {
-    position:relative;
-    color:red;
-    background-color:#009933;
-    top:-10px;
-    font-size:32pt;
-    text-decoration:underline;
-    margin-left:123px;
-    border-color:#003300;
-    border-width:2px 0px;
-    border-style:solid;
-    }
+  position:relative;
+  color:red;
+  background-color:#009933;
+  top:-10px;
+  font-size:32pt;
+  text-decoration:underline;
+  margin-left:123px;
+  border-color:#003300;
+  border-width:2px 0px;
+  border-style:solid;
+}
 
 header h5 {
-    position:relative;
-    color:brown;
-    margin-left:400px;
-    bottom:30px;
-    background-color:#5CE65C;
-    padding-left:3pt;
+  position:relative;
+  color:brown;
+  margin-left:400px;
+  bottom:30px;
+  background-color:#5CE65C;
+  padding-left:3pt;
 }
     
 #logo {
-    width:12.5%;
-    height:100pt;
-    border: 2px solid brown;
-    float:left;
-    position:relative;
-    top:-1px;
-    left:-1px;
-    z-index:10;
+  width:12.5%;
+  height:100pt;
+  border: 2px solid brown;
+  float:left;
+  position:relative;
+  top:-1px;
+  left:-1px;
+  z-index:10;
 }
 
 header {
-    margin:0 auto;
-    background-image:url("../assets/images/grass.jpg");
-    position:relative;
-    width:954px;
-    height:100pt;
-    border: 3px solid brown;
+  margin:0 auto;
+  background-image:url("../assets/images/grass.jpg");
+  position:relative;
+  width:954px;
+  height:100pt;
+  border: 3px solid brown;
 }
 
 .back-header {
-    background:url("../assets/images/beautiful_sky.jpg");
-    width:100%;
-    height:142px;
-    position:fixed;
-    border-bottom:4pt ridge blue;
-    z-index:-1;
+  background:url("../assets/images/beautiful_sky.jpg");
+  width:100%;
+  height:142px;
+  position:fixed;
+  border-bottom:4pt ridge blue;
+  z-index:-1;
 }
 
 nav li {
-    position:static;
-    width:95px;
-    display:inline-block;
-    border:2pt solid black;
-    padding:5px;
-    background-color:darkgreen;
+  position:static;
+  width:95px;
+  display:inline-block;
+  border:2pt solid black;
+  padding:5px;
+  background-color:darkgreen;
 }
 
 nav {
-    text-align:center;
-    border: 3pt solid green;
-    margin-bottom:-50px;
-    background-color:#00B800;
-    margin:0 auto;
+  text-align:center;
+  border: 3pt solid green;
+  margin-bottom:-50px;
+  background-color:#00B800;
+  margin:0 auto;
 }
 
 nav .active:link{
-    color:white;
+  color:white;
 }
 nav .active:visited {
-    color:white;
+  color:white;
 }
 nav .active:hover {
-   color:#CCCCCC;
-   font-weight:bold;
+  color:#CCCCCC;
+  font-weight:bold;
 }
 
 body {
-    background:url("../assets/images/dark_wood.png");
-    margin:0;
+  background:url("../assets/images/dark_wood.png");
+  margin:0;
 }
 
 .container {
  /*Fix main body so that the bottom border is adjusted*/
-    width:960px;
-    margin:0 auto;
-    background:url("../assets/images/paper.png");
-    border:2pt solid red;
+  width:960px;
+  margin:0 auto;
+  background:url("../assets/images/paper.png");
+  border:2pt solid red;
 }
 
 #pic1{
-    position:relative;
-    width:432.33px;
-    height:263.33px;
-    border:4pt double brown;
-    float:right;
-    top:180px;
-    left:-30px;
+  position:relative;
+  width:432.33px;
+  height:263.33px;
+  border:4pt double brown;
+  float:right;
+  top:180px;
+  left:-30px;
 }
 
 #welcome{
-    border-radius:5px;
-    position:relative;
-    margin-right:50%;
-    width:40%;
-    top:150px;
-    left:20px;
-    background-color:#FFE6B2;
-    padding:1px 20px;
-    border:2pt solid orange;
+  border-radius:5px;
+  position:relative;
+  margin-right:50%;
+  width:40%;
+  top:150px;
+  left:20px;
+  background-color:#FFE6B2;
+  padding:1px 20px;
+  border:2pt solid orange;
 }
 #welcome h2 {
-    text-decoration:underline;
+  text-decoration:underline;
 }
 #welcome p {
-    font-size:13pt;
+  font-size:13pt;
 }
 
 #pic2 {
-    position:relative;
-    width:432.33px;
-    height:263.33px;
-    left:15px;
-    bottom:70px;
-    border:4pt double brown;
+  position:relative;
+  width:432.33px;
+  height:263.33px;
+  left:15px;
+  bottom:70px;
+  border:4pt double brown;
 }
 
 
 #passion {
-    border-radius:5px;
-    position:relative;
-    margin-left:50%;
-    width:40%;
-    left:20px;
-    top:250px;
-    padding:1px 20px;
-    background-color:#FFE6B2;
-    border:2pt solid orange;
+  border-radius:5px;
+  position:relative;
+  margin-left:50%;
+  width:40%;
+  left:20px;
+  top:250px;
+  padding:1px 20px;
+  background-color:#FFE6B2;
+  border:2pt solid orange;
 }
 
 #passion h2 {
-    text-decoration:underline;
+  text-decoration:underline;
 }
 #passion p {
-    font-size:13pt;
+  font-size:13pt;
 }
 
 p {
-    font-size:13pt;
-    text-indent:50px;
+  font-size:13pt;
+  text-indent:50px;
 }
 
 a {
-    text-decoration:none;
+  text-decoration:none;
 }
 a:link{
-    color:green;
+  color:green;
 }
 a:hover{
-    color:#000099;
+  color:#000099;
 }
 
 .desc {
-    font-size:11pt;
+  font-size:11pt;
 }
 
 .tours {
-    background-color:white;
-    border:3px solid brown;
-    border-collapse:collapse;
-    width:90%;
-    margin: 0 auto;
+  background-color:white;
+  border:3px solid brown;
+  border-collapse:collapse;
+  width:90%;
+  margin: 0 auto;
 }
 
 .tours th, td {
-    border:2px solid black;
+  border:2px solid black;
 }
 .tours tr:hover {
-    background-color:lightgrey;
+  background-color:lightgrey;
 }
 .label {
-    text-align:center;
+  text-align:center;
 }
 
 #llama_tours {
-    padding-left:50px;
-    background-color:#331A00;
-    color:white;
-    margin-right:525px;
-    text-align:center;
+  padding-left:50px;
+  background-color:#331A00;
+  color:white;
+  margin-right:525px;
+  text-align:center;
 }
 
 .maps {
-    border-top:2pt solid black;
-    background-color:#333333;
-    padding:20px;
-    padding-left:22px;
+  border-top:2pt solid black;
+  background-color:#333333;
+  padding:20px;
+  padding-left:22px;
 }
 
 #location {
-    text-align:center;
-    text-decoration:underline;
+  text-align:center;
+  text-decoration:underline;
 }
 
 #address {
-    width:300px;
-    padding:45px;
-    position:relative;
-    right:55px;
-    float:right;
-    background-color:#DDDDDD;
-    border:4pt solid black;
+  width:300px;
+  padding:45px;
+  position:relative;
+  right:55px;
+  float:right;
+  background-color:#DDDDDD;
+  border:4pt solid black;
 }
 #address hgroup, p {
-    text-indent:0;
+  text-indent:0;
 }
 #address h3 {
-    position:relative;
-    bottom:20px;
+  position:relative;
+  bottom:20px;
 }
 #address p {
-    position:relative;
-    bottom:30px;
+  position:relative;
+  bottom:30px;
 }
 
 .july {
-    position:relative;
-    top:20px;
-    background:url("../assets/images/flag.jpg");
-    border:3pt solid darkblue;
-    padding: 0 20px;
-    margin:0 20px;
-    margin-bottom:60px;
-    height:540px;
+  position:relative;
+  top:20px;
+  background:url("../assets/images/flag.jpg");
+  border:3pt solid darkblue;
+  padding: 0 20px;
+  margin:0 20px;
+  margin-bottom:60px;
+  height:540px;
 }
 .july div {
-    position:relative;
-    top:-20px;
-    width:75%;
-    margin:auto;
-    text-align:center;
-    background-color:#FF0000;
-    border:3pt solid #5C0000;
+  position:relative;
+  top:-20px;
+  width:75%;
+  margin:auto;
+  text-align:center;
+  background-color:#FF0000;
+  border:3pt solid #5C0000;
 }
 .july h2 {
-    position:relative;
-    text-align:center;
-    width:200px;
-    left:83px;
-    top:-15px;
-    text-decoration:underline;
-    background-color:#5C0000;
-    border:2pt solid red;
-    border-bottom:0;
-    margin-right:710px;
-    padding: 10px 20px 10px;
+  position:relative;
+  text-align:center;
+  width:200px;
+  left:83px;
+  top:-15px;
+  text-decoration:underline;
+  background-color:#5C0000;
+  border:2pt solid red;
+  border-bottom:0;
+  margin-right:710px;
+  padding: 10px 20px 10px;
 }
 
 .july p {
-    position:relative;
-    top:-36px;
-    left:50px;
-    font-family:arial;
-    margin-right:400px;
-    font-size:12pt;
-    background-color:#5C0000;
-    color:white;
-    padding:10px 10px;
-    border:2pt solid red;
+  position:relative;
+  top:-36px;
+  left:50px;
+  font-family:arial;
+  margin-right:400px;
+  font-size:12pt;
+  background-color:#5C0000;
+  color:white;
+  padding:10px 10px;
+  border:2pt solid red;
 }
 
 .july div p{
-    position:absolute;
-    width:150px;
-    left:240px;
-    border:0;
+  position:absolute;
+  width:150px;
+  left:240px;
+  border:0;
 }
 
 .red {
-    color:red;
+  color:red;
 }
 .blue {
-    color:blue;
+  color:blue;
 }
 .white {
-    color:white;
+  color:white;
 }
 
 footer {
-    padding:20px;
+  padding:20px;
 }
 
 /*End of Home page, use for only home page or template*/
 /*Beginning of Contact Us page */
 
 .contactus {
-    position:relative;
-    padding:5px 0;
-    padding-left:20px;
-    padding-right:100px;
-    background-color:#FFCC66;
-    top:50px;
-    border:2pt solid orange;
-    border-top:0;
+  position:relative;
+  padding:5px 0;
+  padding-left:20px;
+  padding-right:100px;
+  background-color:#FFCC66;
+  border:2pt solid orange;
+  border-top:0;
 }
 .contactus h2 {
-    text-decoration:underline;
-    font-size:20pt;
-    font-family:Arial;
+  text-decoration:underline;
+  font-size:20pt;
+  font-family:Arial;
 }
 .contactus p {
-    font-size:14pt;
-    font-family:Arial;
-    display:inline;
-    position:relative;
-    top:-20px;
-    font-weight:bold;
+  font-size:14pt;
+  font-family:Arial;
+  display:inline;
+  position:relative;
+  top:-20px;
+  font-weight:bold;
 }
 .contactus img {
-    float:right;
-    position:relative;
-    top:-123px;
-    left:10px;
-    border:2pt solid brown;
+  float:right;
+  position:relative;
+  top:-123px;
+  left:10px;
+  border:2pt solid brown;
 }
 .contactus span {
-    width:696px;
-    position:relative;
-    display:block;
-    background-color:#FFFFCC;
-    border:2pt solid brown;
-    top:1px;
-    padding-left:10px;
+  width:696px;
+  position:relative;
+  display:block;
+  background-color:#FFFFCC;
+  border:2pt solid brown;
+  top:1px;
+  padding-left:10px;
 }
 .contactinfo {
-    font-family:Arial;
-    height:200px;
-    padding:40px;
+  font-family:Arial;
+  height:200px;
+  padding:40px;
 }
 .contactinfo h3 {
-    font-size:16pt;
+  font-size:16pt;
 }
 
 /* End of Contact Us page */
 /* Beginning of Llama Tours page */
 
 .llamapics {
-    position:relative;
-    width:120px;
-    height:120px;
-    border:2pt solid brown;
-    top:2px;
-    left:10px;
+  position:relative;
+  width:120px;
+  height:120px;
+  border:2pt solid brown;
+  top:2px;
+  left:10px;
 }
 
 .tour {
-    background-color:#FFDB94;
-    border:2pt solid #663300;
-    width:90%;
-    margin:50.5px 40px;
+  background-color:#FFDB94;
+  border:2pt solid #663300;
+  width:90%;
+  margin:50.5px 40px;
 }
 .tour h3 {
-    padding-left:10px;
-    font-size:16pt;
-    text-decoration:underline;
-    color:#522720;
+  padding-left:10px;
+  font-size:16pt;
+  text-decoration:underline;
+  color:#522720;
 }
 .tour #desc_2-1 {
-    width:75%;
-    position:absolute;
-    left:165px;
-    bottom:2px;
-    text-indent:25px;
+  width:75%;
+  position:absolute;
+  left:165px;
+  bottom:2px;
+  text-indent:25px;
 }
 .tour #desc_2-2 {
-    width:75%;
-    position:absolute;
-    left:165px;
-    bottom:-12px;
-    text-indent:25px;
+  width:75%;
+  position:absolute;
+  left:165px;
+  bottom:-12px;
+  text-indent:25px;
 }
 .tour #desc_2-3 {
-    width:75%;
-    position:absolute;
-    left:165px;
-    bottom:13px;
-    text-indent:25px;
+  width:75%;
+  position:absolute;
+  left:165px;
+  bottom:13px;
+  text-indent:25px;
 }
 .inner_tour {
-    background-color:#FFE9BF;
-    border:2.5pt solid #FFC751;
-    position:relative;
-    top:-50px;
+  background-color:#FFE9BF;
+  border:2.5pt solid #FFC751;
+  position:relative;
+  top:-50px;
 }
 
 button {
-    font-size:13pt;
-    font-family:arial, helvetica, sans-serif;
-    position:relative;
-    left:220px;
-    top:-56px;
-    bottom:1px;
-    z-index:5;
-    width:150px;
-    height:40px;
-    text-align:center;
-    background-color:lightgreen;
-    box-shadow:0 3px 0 green;
-    padding:5px;
-    border:0;
-    outline:0;
-    border-radius:5px;
-    cursor:pointer;
-    transition: all .01s linear;
+  font-size:13pt;
+  font-family:arial, helvetica, sans-serif;
+  position:relative;
+  left:220px;
+  top:-56px;
+  bottom:1px;
+  z-index:5;
+  width:150px;
+  height:40px;
+  text-align:center;
+  background-color:lightgreen;
+  box-shadow:0 3px 0 green;
+  padding:5px;
+  border:0;
+  outline:0;
+  border-radius:5px;
+  cursor:pointer;
+  transition: all .01s linear;
 }
 button:active {
-    box-shadow:0 1px 0 green;
-    transform: translateY(1px);
+  box-shadow:0 1px 0 green;
+  transform: translateY(1px);
 }
 button b {
-    color:green;
+  color:green;
 }
 .tour td {
-    text-align:center;
+  text-align:center;
 }
 
 /*End of Llama Tours page*/
 /*Beginning of reservation.html*/
 #confirm_head {
-    margin:60px 20px;
-    width:50%;
-    background-color:#FFDB94;
-    margin-top:70px;
-    height:90px;
-    padding-top:1px;
-    border:2px solid brown;
+  margin:60px 20px;
+  width:50%;
+  background-color:#FFDB94;
+  margin-top:70px;
+  height:90px;
+  padding-top:1px;
+  border:2px solid brown;
 }
 #confirm_head h4 {
-    position:relative;
-    padding-left:20px;
-    top:-15px;
-    background-color:#FFE6B2;
+  position:relative;
+  padding-left:20px;
+  top:-15px;
+  background-color:#FFE6B2;
 }
 #confirm_head h2 {
-    padding-left:20px;
-    text-transform:uppercase;
-    position:relative;
-    text-decoration:underline;
+  padding-left:20px;
+  text-transform:uppercase;
+  position:relative;
+  text-decoration:underline;
 }
 #info1-1 {
-    width:45%;
-    margin:40px;
+  width:45%;
+  margin:40px;
 }
 #info1-2 {
-    position:relative;
-    top:-20px;
-    width:45%;
-    margin:20px 40px;
+  position:relative;
+  top:-20px;
+  width:45%;
+  margin:20px 40px;
 }
 #info1-2 td {
-    border:0;
+  border:0;
 }
 #info2-1 {
-    float:right;
-    position:relative;
-    margin: 20px 40px;
-    width:45%;
-    top:-188px;
-    left:20px;
+  float:right;
+  position:relative;
+  margin: 20px 40px;
+  width:45%;
+  top:-188px;
+  left:20px;
 }
 #info2-2 {
-    float:right;
-    position:relative;
-    top:-220px;
-    left:20px;
-    margin:10px 40px;
-    width:45%;
+  float:right;
+  position:relative;
+  top:-220px;
+  left:20px;
+  margin:10px 40px;
+  width:45%;
 }
 #info3-1 {
-    margin:20px 40px;
-    width:45%;
+  margin:20px 40px;
+  width:45%;
 }
 #info3-2 {
-    margin:20px 40px;
-    position:relative;
-    top:-20px;
+  margin:20px 40px;
+  position:relative;
+  top:-20px;
 }
 #info3-2 li {
-    list-style:none;
-    font-weight:bold;
-    text-decoration:underline;
+  list-style:none;
+  font-weight:bold;
+  text-decoration:underline;
 }
 #info3-2 span {
-    display:block;
-    position:relative;
-    top:25px;
+  display:block;
+  position:relative;
+  top:25px;
 }
 .submit {
-    font-size:13pt;
-    font-family:arial, helvetica, sans-serif;
-    position:relative;
-    left:50px;
-    top:-20px;
-    bottom:1px;
-    z-index:5;
-    width:80px;
-    height:30px;
-    text-align:center;
-    background-color:lightgreen;
-    box-shadow:0 3px 0 green;
-    padding:px;
-    border:0;
-    outline:0;
-    border-radius:5px;
-    cursor:pointer;
-    transition: all .01s linear;
+  font-size:13pt;
+  font-family:arial, helvetica, sans-serif;
+  position:relative;
+  left:50px;
+  top:-20px;
+  bottom:1px;
+  z-index:5;
+  width:80px;
+  height:30px;
+  text-align:center;
+  background-color:lightgreen;
+  box-shadow:0 3px 0 green;
+  border:0;
+  outline:0;
+  border-radius:5px;
+  cursor:pointer;
+  transition: all .01s linear;
 }
 .submit:active {
-    box-shadow:0 1px 0 green;
-    transform: translateY(1px);
+  box-shadow:0 1px 0 green;
+  transform: translateY(1px);
 }
 #remind {
-    position:relative;
-    bottom:40px;
-    left:30px;
-    font-size:14pt;
-    margin-bottom:-40px;
+  position:relative;
+  bottom:40px;
+  left:30px;
+  font-size:14pt;
+  margin-bottom:-40px;
 }
 #remind span {
-    background-color:lightgreen;
+  background-color:lightgreen;
 }
 
 /*End of reservation.html*/
 /*Beginning of confirmed.html*/
 #congrats {
-    margin:70px 20px;
-    padding:15px 0;
-    background-color:#FFCC66;
-    border:2px double brown;
+  margin:70px 20px;
+  padding:15px 0;
+  background-color:#FFCC66;
+  border:2px double brown;
 }
 #congrats h2, #congrats h3 {
-    background-color:#FFEDCC;
-    margin-left:130px;
-    margin:10px;
-    border:2px solid orange;
+  background-color:#FFEDCC;
+  margin-left:130px;
+  margin:10px;
+  border:2px solid orange;
 }
 #congrats h2 {
-    text-transform:uppercase;
-    font-size:24pt;
-    position:relative;
-    top:12px;
-    left:-1px;
-    border-bottom:none;
-    margin-right:300px;
-    letter-spacing:0.2em;
+  text-transform:uppercase;
+  font-size:24pt;
+  position:relative;
+  top:12px;
+  left:-1px;
+  border-bottom:none;
+  margin-right:300px;
+  letter-spacing:0.2em;
 }
 #congrats h3 {
-    padding:5px;
-    margin-left:20px;
+  padding:5px;
+  margin-left:20px;
 }
 #congrats img {
-    float:left;
-    position:relative;
-    border:1px solid darkorange;
-    border-radius:20px;
-    top:-17px;
-    height:125px;
-    width:125px;
-    margin:10px;
-    z-index:1;
-    background-color:#FFE9BF;
+  float:left;
+  position:relative;
+  border:1px solid darkorange;
+  border-radius:20px;
+  top:-17px;
+  height:125px;
+  width:125px;
+  margin:10px;
+  z-index:1;
+  background-color:#FFE9BF;
 }
 #questions {
-    margin:0;
-    padding:0;
-    text-align:center;
-    position:relative;
-    top:-50px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  position:relative;
+  top:-50px;
 }
 .home {
-    text-align:center;
-    width:auto;
-    margin:0 auto;
-    left:41%;
-    top:-40px;
+  text-align:center;
+  width:auto;
+  margin:0 auto;
+  left:41%;
+  top:-40px;
 }
 
 /*End of confirmed.html*/
 /*Beginning of the_llamas.html*/
 #our_llamas article{
-    position:relative;
-    border:2pt solid brown;
-    border-top:none;
-    border-radius:0 0 10px 10px;
-    top:-20px;
-    width:40%;
-    margin:40px;
-    background-color:#FFEECA;
-    padding:10px 20px;
+  position:relative;
+  border:2pt solid brown;
+  border-top:none;
+  border-radius:0 0 10px 10px;
+  top:-20px;
+  width:40%;
+  margin:40px;
+  background-color:#FFEECA;
+  padding:10px 20px;
 }
 #our_llamas p {
-    text-indent:25px;
-    margin:0;
+  text-indent:25px;
+  margin:0;
 }
 #our_llamas p:first-letter {
-    font-size:125%;
+  font-size:125%;
 }
 #our_llamas h2 {
-    position:relative;
-    top:20px;
-    left:15px;
-    border-radius:1em 4em 0em 0em / 2em 1em 2em 1em ;
-    width:780px;
-    padding:5px 0;
-    padding-left:30px;
-    font-size:24pt;
-    background-color:#473119;
-    color:white;
+  position:relative;
+  top:20px;
+  left:15px;
+  border-radius:1em 4em 0em 0em / 2em 1em 2em 1em ;
+  width:780px;
+  padding:5px 0;
+  padding-left:30px;
+  font-size:24pt;
+  background-color:#473119;
+  color:white;
 }
 #our_llamas h3 {
-    font-size:16pt;
-    margin:25px 0 10px 0;
+  font-size:16pt;
+  margin:25px 0 10px 0;
+}
+#our_llamas #our_llama {
+  position:absolute;
+  width:400px;
+  height:500px;
+  border:4pt solid brown;
+  left:980px;
+  top:400px;
 }

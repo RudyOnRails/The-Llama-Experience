@@ -1,104 +1,110 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Tour Booking</title>
-        <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
-        <link rel="shortcut icon" href="../assets/images/llama.ico">
-    </head>
+  <head>
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
+    <link rel="shortcut icon" href="../assets/images/llama.ico">
+  </head>
     
-    <body>
-        <div class="back-header"></div>
+  <body>
+    <div class="back-header"></div>
         
-        <section class="container">
+    <section class="container">
             
-            <header>
-                <img id="logo" src="http://new1.fjcdn.com/thumbnails/comments/That+s+clearly+a+goat+like+this+one+_64ddfb6aaadc4c8d0f33de470eca296b.jpg" />
-                <h1>The Llama Experience</h1>
-                <h5><i>...the most genuine llama adventures</i></h5>
-            </header>
+      <header>
+        <img id="logo" src="http://new1.fjcdn.com/thumbnails/comments/That+s+clearly+a+goat+like+this+one+_64ddfb6aaadc4c8d0f33de470eca296b.jpg" />
+        <h1>The Llama Experience</h1>
+        <h5><i>...the most genuine llama adventures</i></h5>
+      </header>
             
-            <nav class="bar">
-                <ul>
-                    <li><a href="../index.html" class="active">Home</a></li>
-                    <li><a href="../the_llamas.html" class="active">Our Llamas</a></li>
-                    <li><a href="../news.html" class="active">News</a></li>
-                    <li><a href="../tours.html" class="active">Llama Tours</a></li>
-                    <li><a href="../contact.html" class="active">Contact Us</a></li>
-                </ul>
-            </nav>
+      <nav class="bar">
+        <ul>
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="../the_llamas.html" class="active">Our Llamas</a></li>
+          <li><a href="../news.html" class="active">News</a></li>
+          <li><a href="../tours.html" class="active">Llama Tours</a></li>
+          <li><a href="../contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
             
-            <hgroup id="confirm_head">
-                <h2>Please Provide Sufficient Info</h2>
-                <h4>Your information is <strong>NOT</strong> safe with us! :)</h4>
-            </hgroup>
-            <p id="remind"><b>You are currently reserving a space for a <span>Llama Farm Tour</span></b></p>
+      <hgroup id="confirm_head">
+        <h2>Please Provide Sufficient Info</h2>
+        <h4>Your information is <strong>NOT</strong> safe with us! :)</h4>
+      </hgroup>
+      <p id="remind"><b>You are currently reserving a space for a <span>Llama Farm Tour</span></b></p>
+      
             <!--WARNING! Personal Information required ahead!-->
-            <div>
-                <form action="confirmed.html"><!--(action="#" method="POST")-->
-                    <div id="info1-1">
-                        <b>Enter your full name below-</b><br>
-                        <input type="text" name="fullname"><br>
-                    </div>
-                    <div id="info1-2">
-                        <b>Number of people in your group-</b>
-                        <table>
-                            <tr>
-                                <th>Adults</th><th>Children</th>
-                            </tr>
-                            <tr>     
-                                <td><input type="text" name="adults" size="5"></td>
-                                <td><input type="text" name="children" size="5"></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div id="info2-1">
-                        <b>Check your payment method-</b><br>
-                        <select>
-                            <option value="american_express" name="card">American Express</option>
-                            <option value="mastercard" name="card">Mastercard</option>
-                            <option value="visa" name="card">Visa</option>
-                            <option value="discover" name="card">Discover</option>
-                        </select>
-                    </div>
-                    <div id="info2-2">
-                        <br>
-                        <b>Card Number-</b><br>
-                        <input type="text" name="card_number"><br>
-                    </div>
+      <div>
+        <form action="confirmed.html"><!--(action="#" method="POST")-->
+        
+          <div id="info1-1">
+            <b>Enter your full name below-</b><br>
+            <input type="text" name="fullname"><br>
+          </div>
+          
+          <div id="info1-2">
+            <b>Number of people in your group-</b>
+            <table>
+              <tr>
+                <th>Adults</th><th>Children</th>
+              </tr>
+              <tr>     
+                <td><input type="text" name="adults" size="5"></td>
+                <td><input type="text" name="children" size="5"></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div id="info2-1">
+            <b>Check your payment method-</b><br>
+            <select>
+              <option value="american_express" name="card">American Express</option>
+              <option value="mastercard" name="card">Mastercard</option>
+              <option value="visa" name="card">Visa</option>
+              <option value="discover" name="card">Discover</option>
+            </select>
+          </div>
+          
+          <div id="info2-2">
+            <br><b>Card Number-</b><br>
+            <input type="text" name="card_number"><br>
+          </div>
                     
-                    <div id="info3-1">
-                        <b>Please Specify a Tour Date (Month, Day, and Year)-</b><br>
-                        <input type="text" name="date"><br>
-                    </div>
-                      <div id="info3-2">
-                        <span><b>Choose a Time-</b></span><br>
-                        <ul>
-                            <li>Weekdays</li>
-                                <input type="radio" name="time" value="11:00am">11:00 A.M.<br>
-                                <input type="radio" name="time" value="1:15pm">12:45 P.M.<br>
-                                <input type="radio" name="time" value="3:30pm">2:30 P.M.<br>
-                                <input type="radio" name="time" value="5:45pm">4:15 P.M.<br>
-                                <input type="radio" name="time" value="6:00pm">6:00 P.M.<br>
-                            <li>Sat./Sun.</li>
-                                <input type="radio" name="time" value="12:00pm">12:00 P.M.<br>
-                                <input type="radio" name="time" value="1:45pm">1:45 P.M.<br>
-                                <input type="radio" name="time" value="3:30pm">3:30 P.M.<br>
-                                <input type="radio" name="time" value="5:15pm">5:15 P.M.<br>
-                                <input type="radio" name="time" value="7:00pm">7:00 P.M.<br>
+          <div id="info3-1">
+            <b>Please Specify a Tour Date (Month, Day, and Year)-</b><br>
+            <input type="text" name="date"><br>
+          </div>
+          
+          <div id="info3-2">
+            <span><b>Choose a Time-</b></span><br>
+            <ul>
+              <li>Weekdays</li>
+              <input type="radio" name="time" value="11:00am">11:00 A.M.<br>
+              <input type="radio" name="time" value="1:15pm">12:45 P.M.<br>
+              <input type="radio" name="time" value="3:30pm">2:30 P.M.<br>
+              <input type="radio" name="time" value="5:45pm">4:15 P.M.<br>
+              <input type="radio" name="time" value="6:00pm">6:00 P.M.<br>
+              
+              <li>Sat./Sun.</li>
+              <input type="radio" name="time" value="12:00pm">12:00 P.M.<br>
+              <input type="radio" name="time" value="1:45pm">1:45 P.M.<br>
+              <input type="radio" name="time" value="3:30pm">3:30 P.M.<br>
+              <input type="radio" name="time" value="5:15pm">5:15 P.M.<br>
+              <input type="radio" name="time" value="7:00pm">7:00 P.M.<br>
                                 
-                        </ul>
+            </ul>
                         
                         
-                      </div>
+          </div>
             
-                      <input class="submit" type="submit" value="Submit">
+          <input class="submit" type="submit" value="Submit">
                     
-                </form>
-             </div>
+          </form>
+        </div>
             
             
             
-        </section>
-    </body>
+    </section>
+  </body>
 </html>
