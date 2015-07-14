@@ -21,19 +21,33 @@ header h1 {
   border-style:solid;
 }
 
-header h5 {
+header h5 { 
+  font-size:12pt;
   position:relative;
-  color:brown;
+  color:#B42A2A;
   margin-left:400px;
   bottom:30px;
   background-color:#5CE65C;
   padding-left:3pt;
 }
-    
+
+#secret {
+  z-index:9;
+  width:13%;
+  border:2px solid brown;
+  position:absolute;
+  height:100pt;
+  border-right:4px solid brown;
+  float:left;
+  top:-1px;
+  left:-1px;
+}   
+
 #logo {
   width:13%;
   height:100pt;
   border: 2px solid brown;
+  border-right:4px solid brown;
   float:left;
   position:relative;
   top:-1px;
@@ -49,59 +63,140 @@ header h5 {
 }
 
 header {
+  z-index:10;
   margin:0 auto;
   background-image:url("../assets/images/grass.jpg");
   position:relative;
-  width:954px;
+  width:954.5px;
   height:100pt;
   border: 3px solid brown;
 }
 
 .back-header {
   background:url("../assets/images/beautiful_sky.jpg");
-  width:100%;
+  width:110%;
+  left:-10px;
+  top:0;
   height:142px;
+  margin:0;
   position:fixed;
-  border-bottom:4pt ridge blue;
+  border-bottom:2pt ridge blue;
   z-index:-1;
+  background-repeat:no-repeat;
 }
 
-nav li {
-  position:static;
-  width:95px;
-  display:inline-block;
-  border:2pt solid black;
-  padding:5px;
-  background-color:darkgreen;
+/*---Dropdown Menu Coding---*/
+
+.clearfix:after {
+  display:block;
+  clear:both;
 }
 
-nav li:hover{
-  transition:all 0.3s ease-out;
-  background-color:#66FF33;
-  border:2pt solid #008000;
-}
-
-nav {
-  text-align:center;
-  border: 3pt solid green;
-  margin-bottom:-50px;
-  background-color:#00B800;
-  margin:0 auto;
-}
-
-nav .active {
+.menu-wrap {
+  width:100%;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  background:linear-gradient(#00B800,green);
   position:relative;
-  max-width:95px;
+  height:42px;
 }
-nav .active:link{
+
+.menu {
+  position:relative;
+  text-align:center;
+  width:auto;
+  margin:0px auto;
+}
+
+.menu li {
+  margin:0px;
+  list-style:none;
+}
+
+.menu > ul {
+  margin:auto;
+  position:relative;
+  left:-63px;
+}
+.menu a {
+  transition:all 0.15s linear ;
   color:white;
 }
-nav .active:visited {
-  color:white;
+
+.menu li:hover > a, .menu .current-item > a {
+  text-decoration:none;
+  color:#004D00;
+  font-weight:600;
 }
-nav .active:hover {
-  font-weight:900;
-  color:green;
+
+.menu .arrow {
+  font-size:11px;
+  line-height:0%;
+}
+
+/*--- Main/Top Level ---*/
+
+.menu > ul > li {
+  float:left;
+  border-left:2pt solid #008000;
+  border-right:2pt solid #008000;
+  display:inline-block;
+  position:relative;
+  font-size:19px;
+  width:200px;
+}
+
+.menu > ul > li > a {
+  width:120px;
+  padding:10px 40px;
+  display:inline-block;
+  text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+  transition:all 0.15s ease-out;
+  background:#66FF33;
+}
+
+/*---Dropdown Menu/Bottom Level---*/
+
+.sub-menu {
+  border:3pt solid green;
+  border-top:none;
+  width:125%;
+  padding:5px 0px;
+  position:absolute;
+  top:100%;
+  left:-4px;
+  z-index:-1;
+  opacity:0;
+  transition:opacity linear 0.15s;
+  box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+  background:#66FF33;
+  border-radius:0 0 5px 5px;
+}
+
+.menu li:hover .sub-menu {
+  z-index:1;
+  opacity:1;
+}
+
+.sub-menu li {
+  display:block;
+  font-size:19px;
+  width:96%;
+  text-align:left;
+  padding-left:10px;
+  color:#004D00;
+}
+
+.submenu li a {
+  padding:10px 30px;
+  display:block;
+}
+
+.sub-menu a li:hover, .sub-menu .current-item {
+  background-color:#00B800;
+  color:blue;
 }
 
 body {
@@ -427,11 +522,11 @@ button {
   left:220px;
   top:-56px;
   bottom:1px;
-  z-index:5;
+  z-index:0;
   width:150px;
   height:40px;
   text-align:center;
-  background-color:lightgreen;
+  background:linear-gradient(lightgreen,lime);
   box-shadow:0 3px 0 green;
   padding:5px;
   border:0;

@@ -13,19 +13,35 @@
     <section class="container">
             
       <header>
+        <img id="secret" src="https://s-media-cache-ak0.pinimg.com/originals/23/30/3c/23303ca7c127f6334449a3775328b511.jpg" />
         <img id="logo" src="http://new1.fjcdn.com/thumbnails/comments/That+s+clearly+a+goat+like+this+one+_64ddfb6aaadc4c8d0f33de470eca296b.jpg" />
         <h1>The Llama Experience</h1>
         <h5><i>...the most genuine llama adventures</i></h5>
       </header>
             
-      <nav class="bar">
-        <ul>
-          <a href="../index.html" class="active"><li>Home</li></a>
-          <a href="../the_llamas.html" class="active"><li>Our Llamas</li></a>
-          <a href="../tours.html" class="active"><li>Llama Tours</li></a>
-          <a href="../contact.html" class="active"><li>Contact Us</li></a>
-        </ul>
-      </nav>
+      <div class="menu-wrap">
+          
+          <nav class="menu">
+              <ul class="clearfix">
+                <li class="current-item"><a href="index.html">Home</a></li>
+                <li>
+                  <a href="the_llamas.html">Our Llamas <span class="arrow">&#9660</span></a>
+                
+                  <ul class="sub-menu">
+                    <a href="#"><li>Cassie</li></a>
+                    <a href="#"><li>Tori</li></a>
+                    <a href="#"><li>Gerald</li></a>
+                    <a href="#"><li>Vincent</li></a>
+                    <a href="#"><li>J.C.</li></a>
+                  </ul>
+                
+                </li>
+                <li><a href="tours.html">Llama Tours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </nav>
+          
+        </div>
             
       <hgroup id="confirm_head">
         <h2>Please Provide Sufficient Info</h2>
@@ -38,12 +54,12 @@
         <form action="confirmed.html"><!--(action="#" method="POST")-->
         
           <div id="info1-1">
-            <b>Enter your full name below-</b><br>
-            <input type="text" name="fullname"><br>
+            <b><span class="red">*</span>Enter your full name below-</b><br>
+            <input type="text" name="fullname" required><br>
           </div>
           
           <div id="info1-2">
-            <b>Number of people in your group-</b>
+            <b><span class="red">*</span>Number of people in your group-</b>
             <table>
               <tr>
                 <th>Adults</th><th>Children</th>
@@ -66,13 +82,13 @@
           </div>
           
           <div id="info2-2">
-            <br><b>Card Number-</b><br>
-            <input type="text" name="card_number"><br>
+            <br><b><span class="red">*</span>Card Number-</b><br>
+            <input type="text" name="card_number" required><br>
           </div>
                     
           <div id="info3-1">
-            <b>Please Specify a Tour Date (Month, Day, and Year)-</b><br>
-            <input type="text" name="date"><br>
+            <b><span class="red">*</span>Please Specify a Tour Date (Month, Day, and Year)-</b><br>
+            <input type="text" name="date" required><br>
           </div>
           
           <div id="info3-2">
