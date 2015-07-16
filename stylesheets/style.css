@@ -41,7 +41,7 @@ header h5 {
   float:left;
   top:-1px;
   left:-1px;
-}   
+}
 
 #logo {
   width:13%;
@@ -73,11 +73,11 @@ header {
 }
 
 .back-header {
-  background:url("../assets/images/beautiful_sky.jpg");
-  width:110%;
+  background:url("../assets/images/hills_and_valleys.jpg");
+  width:2144px;
   left:-10px;
   top:0;
-  height:142px;
+  height:1148px;
   margin:0;
   position:fixed;
   border-bottom:2pt ridge blue;
@@ -121,6 +121,9 @@ header {
   transition:all 0.15s linear ;
   color:white;
 }
+.menu a:link{
+  color:white;
+}
 
 .menu li:hover > a, .menu .current-item > a {
   text-decoration:none;
@@ -143,6 +146,7 @@ header {
   position:relative;
   font-size:19px;
   width:200px;
+  color:white;
 }
 
 .menu > ul > li > a {
@@ -197,10 +201,6 @@ header {
 .sub-menu a li:hover, .sub-menu .current-item {
   background-color:#00B800;
   color:blue;
-}
-
-body {
-  background:url("../assets/images/dark_wood.png");
 }
 
 .container {
@@ -708,10 +708,21 @@ button b {
 
 /*End of confirmed.html*/
 /*Beginning of the_llamas.html*/
+#our_llamas figure figcaption {
+  width:380px;
+  position:relative;
+  left:471px;
+  top:-189px;
+  font-size:14pt;
+  background-color:grey;
+  opacity:0.9;
+  padding:12px;
+  border:2pt solid black;
+}
 #our_llamas {
   position:relative;
 }
-#our_llamas article{
+#our_llamas #care{
   position:relative;
   border:2pt solid brown;
   border-top:none;
@@ -749,10 +760,98 @@ button b {
   float:right;
   position:relative;
   bottom:680px;
-  right:35px;
   width:400px;
   height:500px;
   border:4pt solid brown;
 }
-/*End of the_llamas.html*/
 
+#llama_profiles h2 {
+  font-size:18pt;
+  width:480px;
+  position:relative;
+  top:-50px;
+}
+
+#llama_profiles {
+  position:relative;
+  margin-bottom:400px;
+  max-width:960px;
+}
+
+#llama_profiles article {
+  float:left;
+  margin:10px;
+  max-width:129px;
+  background-color:#FFEECA;
+  padding:5px;
+  border:1pt solid brown;
+  border-radius:5px;
+}
+.llamas h3{
+  margin:0;
+  text-align:center;
+}
+.llamas img {
+  border:2pt solid orange;
+}
+
+/*End of the_llamas.html*/
+/* Beginning of llama profiles */
+.llama_profile {
+  background-color:#FFEECA;
+  margin:20px;
+  border-radius:10px;
+  border:3px solid brown;
+  padding:20px 20px;
+}
+.llama_profile_pics {
+  border:3pt solid brown;
+  border-right:4pt solid brown;
+  width:270px;
+  height:271px;
+}
+.llama_profile figure {
+  display:inline-block;
+}
+.llama_profile h2 {
+  background-color:#842222;
+  font-size:20pt;
+  position:relative;
+  color:white;
+  padding:2px 10px;
+  width:500px;
+  float:right;
+  bottom:321px;
+  left:-35px;
+  border-top-right-radius:50% 100px;
+}
+.llama_profile ul {
+  width:235px;
+  position:relative;
+  left:40px;
+  top:-38px;
+  background-color:#FFF9EC;
+  border:2pt solid orange;
+  border-top:none;
+  border-radius: 0 0 10px 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:13pt;
+  list-style:none;
+  letter-spacing:0.02em;
+  font-family:arial;
+}
+.llama_profile p {
+  width:380px;
+  float:right;
+  position:relative;
+  right:120px;
+  background:#FFF9EC;
+  font-size:14pt;
+  top:-382px;
+  padding:5px 10px;
+  line-height:1.3em;
+  text-indent:25px;
+  border:2px solid gold;
+  border-top:none;
+}
